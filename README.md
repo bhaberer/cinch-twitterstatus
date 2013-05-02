@@ -1,4 +1,4 @@
-# Cinch::Twitterstatus
+# Cinch::TwitterStatus
 
 Posts the content of a linked Tweet to the channel.
 
