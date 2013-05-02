@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Usage
 
 For the gem to work alll you will need to is add the gem to your plugins:
+
     @bot = Cinch::Bot.new do
       configure do |c|
         c.plugins.plugins = [ Cinch::Plugins::TwitterStatus]
