@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Cinch::Twitterstatus::VERSION
   gem.authors       = ["Brian Haberer"]
   gem.email         = ["bhaberer@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Cinch IRC bot Plugin that access the Twitter API to post the content of linked twitter statuses to the channel.}
+  gem.summary       = %q{Cinch Plugin to post tweets to channel.}
+  gem.homepage      = "https://github.com/bhaberer/cinch-twitterstatus"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
