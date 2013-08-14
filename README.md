@@ -1,5 +1,11 @@
 # Cinch::TwitterStatus
 
+[![Gem Version](https://badge.fury.io/rb/cinch-twitterstatus.png)](http://badge.fury.io/rb/cinch-twitterstatus)
+[![Dependency Status](https://gemnasium.com/bhaberer/cinch-twitterstatus.png)](https://gemnasium.com/bhaberer/cinch-twitterstatus)
+[![Build Status](https://travis-ci.org/bhaberer/cinch-twitterstatus.png?branch=master)](https://travis-ci.org/bhaberer/cinch-twitterstatus)
+[![Coverage Status](https://coveralls.io/repos/bhaberer/cinch-twitterstatus/badge.png?branch=master)](https://coveralls.io/r/bhaberer/cinch-twitterstatus?branch=master)
+[![Code Climate](https://codeclimate.com/github/bhaberer/cinch-twitterstatus.png)](https://codeclimate.com/github/bhaberer/cinch-twitterstatus)
+
 Posts the content of a linked Tweet to the channel.
 
 ## Installation
