@@ -39,9 +39,7 @@ module Cinch::Plugins
     rescue Twitter::Error::NotFound
       debug "User posted an invalid twitter status"
     rescue Twitter::Error::Forbidden
-      debug "User attempted to post a Protected Tweet"
-    rescue Twitter::Error::BadRequest
-      debug "You have not set valid Twitter credentials, please see documentation"
+      debug "User attempted to post a Protected Tweet or you have not set valid Twitter credentials."
     end
   end
 end
