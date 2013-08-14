@@ -3,3 +3,25 @@ language: ruby
 rvm:
 - 1.9.2
 - 1.9.3
+env:
+  matrix:
+  - secure: ! 'RYlcShCnPWh5tG/gHK2BSqxtBz/GWe66kTv9LBj0dhJAj+/aYxMCO4bnSXQ5
+
+      XFAaRb4OIZ94uaKck1G4sY/crUmcvphNsKSpt8EemY1JL1JLPuoXFblJYPUZ
+
+      XWAmMLvYBRmMxvjJgZ3NO0k5RRnTP35i2Fowsj4b3jIul7eJ6ys='
+  - secure: ! 'GKCjuQvI131Rbk5Dd5t4wrN1jP1K7A1wm0abIvWmoTgxOHUIcRwcQTzwrACX
+
+      SOf3K7ep185d/q8h7EQ+BZ9DuGLA48c3dLhd1Nf1CplK8QfjZy4UbpZ6AAd1
+
+      8JnB+si7lTYHNRW1YjMg239iOdGUyaK1bSrFk0iYXWUkS80LPnE='
+  - secure: ! 'T7gEZtRyUKS2mcrHpIUmBTMsPGJ5EWcYUQmiIHFch+cSR9hFBc1HvITa4W8M
+
+      VJfA9qHWI7ybI/q5zJtxh7sXw9YSNntRveEFSWZSoOiRtxZa7Y+ZHoyS56bL
+
+      6ttPIfaAPwqhc1IPJBWnoIJF83VNn6hUoVni5M72wGi+wptqAWo='
+  - secure: ! 'SzPZg486jGoOYKQoH9PAdtL91R6DxVKpu4wvBm5K4zMIKnUd7jOtfYs7Ukm5
+
+      FngWZo5MX5shTp32DCmgpKR9HBX4rxRxTzeriWRztQ22k59w6ftKlnmmEyLw
+
+      lHDU487H20FD7KqwTdHfufD8U1hLmQP8+xjLkEDyiIiJOnLAFfE='
