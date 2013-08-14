@@ -4,7 +4,7 @@ rvm:
 - 1.9.2
 - 1.9.3
 env:
-  matrix:
+  global:
   - secure: ! 'RYlcShCnPWh5tG/gHK2BSqxtBz/GWe66kTv9LBj0dhJAj+/aYxMCO4bnSXQ5
 
       XFAaRb4OIZ94uaKck1G4sY/crUmcvphNsKSpt8EemY1JL1JLPuoXFblJYPUZ
