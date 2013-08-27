@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Cinch IRC bot Plugin that access the Twitter API to post the content of linked twitter statuses to the channel.}
   gem.summary       = %q{Cinch Plugin to post tweets to channel.}
   gem.homepage      = "https://github.com/bhaberer/cinch-twitterstatus"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
