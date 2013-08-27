@@ -22,5 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'coveralls'
   gem.add_development_dependency 'cinch-test'
 
-  gem.add_dependency 'twitter', '~> 4.8.1'
+  gem.add_dependency 'twitter',   '~> 4.8.1'
+  gem.add_dependency 'cinch',     '~> 2.0.0'
 end
