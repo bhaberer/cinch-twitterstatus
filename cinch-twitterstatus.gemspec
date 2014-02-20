@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cinch/plugins/twitterstatus/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "cinch-twitterstatus"
-  gem.version       = Cinch::Twitterstatus::VERSION
-  gem.authors       = ["Brian Haberer"]
-  gem.email         = ["bhaberer@gmail.com"]
+  gem.name          = 'cinch-twitterstatus'
+  gem.version       = Cinch::Plugins::TwitterStatus::VERSION
+  gem.authors       = ['Brian Haberer']
+  gem.email         = ['bhaberer@gmail.com']
   gem.description   = %q{Cinch IRC bot Plugin that access the Twitter API to post the content of linked twitter statuses to the channel.}
   gem.summary       = %q{Cinch Plugin to post tweets to channel.}
-  gem.homepage      = "https://github.com/bhaberer/cinch-twitterstatus"
+  gem.homepage      = 'https://github.com/bhaberer/cinch-twitterstatus'
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
@@ -18,11 +18,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'coveralls'
-  gem.add_development_dependency 'cinch-test'
+  gem.add_development_dependency  'rake'
+  gem.add_development_dependency  'rspec'
+  gem.add_development_dependency  'coveralls'
+  gem.add_development_dependency  'cinch-test'
 
-  gem.add_dependency 'twitter',   '~> 4.8.1'
-  gem.add_dependency 'cinch',     '~> 2.0.0'
+  gem.add_dependency              'twitter',          '~> 5.7.1'
+  gem.add_dependency              'cinch',            '~> 2.0.12'
+  gem.add_dependency              'cinch-toolbox',    '~> 1.1.0'
 end
