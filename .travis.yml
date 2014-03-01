@@ -22,7 +22,7 @@ matrix:
   fast_finish: true
 env:
   global:
-    - "JRUBY_OPTS=-Xcext.enabled=true"
+    - JRUBY_OPTS=-Xcext.enabled=true
     - secure: ! 'Yz/VAtfbXwk6JD/2/z6c2SGygNGELrF0dlZ/M5nOrDiKNm8lxpC6w19esGbB
 
       CYt8UtqylceJ2UxYngHLVH48oPb+A5fv21/jDJMqHeO/N4WjwQUOzBZXfZG6
