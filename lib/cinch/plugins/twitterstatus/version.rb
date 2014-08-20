@@ -3,7 +3,7 @@ module Cinch
   module Plugins
     # Versioning info
     class TwitterStatus
-      VERSION = '1.1.1'
+      VERSION = '1.1.2'
     end
   end
 end
