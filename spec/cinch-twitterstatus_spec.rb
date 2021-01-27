@@ -23,7 +23,7 @@ describe Cinch::Plugins::TwitterStatus do
     it 'should return the text of the tweet when linked in the channel' do
       msg = get_replies(make_message(@bot, @status[:normal],
                                      { channel: '#foo', nick: 'bar' })).first
-      expect(msg.text).to eq('@weirdo513 tweeted "HOW IS THAT MIC STILL ON JESUS"')
+      expect(msg.text).to eq('@_bhaberer tweeted "HOW IS THAT MIC STILL ON JESUS"')
     end
 
     it 'should return the text of the tweet when linked in the channel' do
