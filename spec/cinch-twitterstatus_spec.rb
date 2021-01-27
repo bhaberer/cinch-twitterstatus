@@ -13,9 +13,9 @@ describe Cinch::Plugins::TwitterStatus do
                       oauth_token: ENV['OAUTH_TOKEN'],
                       oauth_secret: ENV['OAUTH_SECRET'] })
     @status =
-      { normal: 'https://twitter.com/weirdo513/status/344186643609174016',
+      { normal: 'https://twitter.com/_bhaberer/status/344186643609174016',
         protected: 'https://twitter.com/brewtopian/status/68071618055901184',
-        invalid: 'https://twitter.com/weirdo513/status/3INVALI643609174016',
+        invalid: 'https://twitter.com/_bhaberer/status/3INVALI643609174016',
         multiline: 'https://twitter.com/Peeardee/status/502209346038951937'}
   end
 
